@@ -1,3 +1,4 @@
+package Class8;
 public class foreachloop {
     public static void main(String[] args) {
         int[] eids={101,102,103,104,105};

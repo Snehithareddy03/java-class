@@ -1,3 +1,4 @@
+package Class8;
 public class loops{
     public static void main(String[] args){
         int esal =15000;

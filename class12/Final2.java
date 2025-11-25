@@ -6,7 +6,7 @@ class parent{
         System.out.println("parent class public method m2");
     }
 }
-class child extends parent{
+class child extends example{
     public void m1(){ // method m1 is overridden in chilc class
         System.out.println("child class - over ridden method m1");
     }
@@ -15,7 +15,7 @@ class child extends parent{
 }}
 class Test{
 public static void main(String[] args) {
-    parent p1 = new parent();
+    example p1 = new example();
     p1.m1();
     p1.m2();
     System.out.println("*************************************");
@@ -24,7 +24,7 @@ public static void main(String[] args) {
     c1.m2();
     c1.m3();
     System.out.println("*************************************");
-    parent c2 = new child();
+    example c2 = new child();
     c2.m1();
     c2.m2();
     //c2.m3();// not possible because c2 is parent type,m3 method is child class method

@@ -1,3 +1,4 @@
+package Class8;
 public class stringlen {
     public static void main(String[] args) {
         String[] enames= {"rahul","sonia","shalini"};

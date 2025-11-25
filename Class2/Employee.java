@@ -1,4 +1,4 @@
- public class Test {
+public class Employee {
 
     // static int 9eid = 101;     identifier should not start with digits
     // static int for = 101;         identifier should not use keywords/ Reserved words
