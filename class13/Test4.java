@@ -19,5 +19,6 @@ public class Test4 {
         System.out.println(a1.cal_Interest());
         System.out.println(a1.get_Name());
         a1.get_Details();
+
     }
 }
