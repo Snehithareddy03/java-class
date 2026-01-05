@@ -19,7 +19,7 @@ class Test{
             System.out.println(eids[8]);
         }catch(Exception e){
             System.out.println(e);
-        }
+        } // we can also give like this catch(ArrayIndexOutOfBoundsException e)
         
         System.out.println(eids[0]);
         System.out.println("Good Morning");
